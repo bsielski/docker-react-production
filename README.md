@@ -14,12 +14,11 @@ Copy/clone repository into the main application's directory:
 ...
 - build
 - docker-react-production
-  - docker-compose.yml.example
-  - Dockerfile.example
-  - .env-app.example
-  - .env.example
-  - .env-webserver.example
-  - nginx.conf.example
+  - docker-compose.yml
+  - Dockerfile
+  - .env
+  - .env-webserver
+  - nginx.conf
 - .git
 - .gitignore
 - package.json
@@ -31,7 +30,7 @@ Copy/clone repository into the main application's directory:
 
 Rename `docker-react-production` directory to `docker-production`.
 
-Edit all `*.example` files and rename them by deleting `.example` extentions.
+Edit docker-compose.yml, Dockerfile, .env, .env-webserver, nginx.conf files.
 
 ## Deploying app
 
